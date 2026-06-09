@@ -1,4 +1,4 @@
-class Solution {
+class leetcode_443 {
     public int compress(char[] chars) {
         if (chars.length == 0 || chars.length == 1) {
             return chars.length;
