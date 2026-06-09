@@ -14,7 +14,7 @@ class Node {
     }
 }
 
-class Solution {
+public class leetcode_138 {
     public Node copyRandomList(Node head) {
         Node curr = head;
         Node newCurr = null;

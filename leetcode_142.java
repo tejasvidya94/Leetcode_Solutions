@@ -1,6 +1,7 @@
-public class Solution {
+public class leetcode_142 {
     public ListNode detectCycle(ListNode head) {
-        if (head == null || head.next == null) return null;
+        if (head == null || head.next == null)
+            return null;
 
         ListNode slow = head;
         ListNode fast = head;
@@ -10,7 +11,7 @@ public class Solution {
             slow = slow.next;
             fast = fast.next.next;
 
-            if (slow == fast) { 
+            if (slow == fast) {
                 // Step 2: Find cycle start
                 ListNode entry = head;
                 while (entry != slow) {
@@ -21,6 +22,6 @@ public class Solution {
             }
         }
 
-        return null; 
+        return null;
     }
 }
