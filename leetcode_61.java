@@ -17,7 +17,7 @@ class ListNode {
     }
 }
 
-public class leetccode_61 {
+public class leetcode_61 {
     public ListNode shiftRight(ListNode head, int k) {
         if (k == 0) {
             return head;
